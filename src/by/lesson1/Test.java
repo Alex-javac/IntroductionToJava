@@ -1,6 +1,7 @@
 package by.lesson1;
 
 import by.lesson1.linearProgram.*;
+import by.lesson1.ramification.*;
 
 import java.util.Scanner;
 
@@ -19,6 +20,16 @@ public class Test {
         Task5.task5();
         System.out.println("Задача №6");
         Task6.task6();
-
+        System.out.println("            Ветвления");
+        System.out.println("Задача №7");
+        Task7.task7();
+        System.out.println("Задача №8");
+        Task8.task8();
+        System.out.println("Задача №9");
+        Task9.task9();
+        System.out.println("Задача №10");
+        Task10.task10();
+        System.out.println("Задача №11");
+        Task11.task11();
     }
 }

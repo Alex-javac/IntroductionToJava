@@ -13,9 +13,9 @@ public class Task3 {
 
         System.out.println("Вычислить значение выражения по формуле: (sin x + cos x)/(cos x - sin y)*tg(x*y)");
         System.out.print("x = ");
-        int x = scanner.nextInt();
+        double x = scanner.nextDouble();
         System.out.print("y = ");
-        int y = scanner.nextInt();
+        double y = scanner.nextDouble();
 
         System.out.println("Значение выражения = "+ valueTask3(x,y));
     }
