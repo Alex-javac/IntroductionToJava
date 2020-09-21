@@ -1,5 +1,6 @@
 package by.lesson1;
 
+import by.lesson1.cycles.*;
 import by.lesson1.linearProgram.*;
 import by.lesson1.ramification.*;
 
@@ -31,5 +32,22 @@ public class Test {
         Task10.task10();
         System.out.println("Задача №11");
         Task11.task11();
+        System.out.println("            Циклы");
+        System.out.println("Задача №12");
+        Task12.task12();
+        System.out.println("Задача №13");
+        Task13.task13();
+        System.out.println("Задача №14");
+        Task14.task14();
+        System.out.println("Задача №15");
+        Task15.task15();
+        System.out.println("Задача №16");
+        Task16.task16();
+        System.out.println("Задача №17");
+        Task17.task17();
+        System.out.println("Задача №18");
+        Task18.task18();
+        System.out.println("Задача №19");
+        Task19.task19();
     }
 }
