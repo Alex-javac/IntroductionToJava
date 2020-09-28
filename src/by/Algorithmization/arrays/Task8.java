@@ -20,12 +20,15 @@ public class Task8 {
         System.out.println(Arrays.toString(arr));
         System.out.println("Образовать новую последовательность, выбросив из исходной те члены, которые равны min(a1 ,a2 , ,an ).");
         int min = arr[0];
-        for (int i = 0; i<arr.length; i++){
-            min=Math.min(arr[i],min); }
+        for (int k : arr) {
+            min = Math.min(k, min);
+        }
 
         int countMin=0;
-        for (int i = 0; i<arr.length; i++) {
-            if(arr[i]==min) { countMin++; }
+        for (int k : arr) {
+            if (k == min) {
+                countMin++;
+            }
         }
 
         int[] arrNew = new int[arr.length-countMin];

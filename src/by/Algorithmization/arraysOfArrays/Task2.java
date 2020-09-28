@@ -12,8 +12,8 @@ public class Task2 {
                 matrix[i][j] = (int) (Math.random() * 100);
             }
         }
-        for (int i = 0; i < matrix.length; i++){
-            System.out.println(Arrays.toString(matrix[i]));
+        for (int[] ints : matrix) {
+            System.out.println(Arrays.toString(ints));
         }
         System.out.println("Вывести на экран элементы, стоящие на диагонали.");
         for (int i = 0; i < matrix.length; i++) {

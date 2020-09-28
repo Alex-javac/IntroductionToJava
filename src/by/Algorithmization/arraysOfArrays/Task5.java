@@ -27,8 +27,8 @@ public class Task5 {
                        matrix[i][j] = 0;
                 }
             }
-            for (int i = 0; i < matrix.length; i++){
-                System.out.println(Arrays.toString(matrix[i]));
+            for (int[] ints : matrix) {
+                System.out.println(Arrays.toString(ints));
             }
         }else {
             System.out.println("n не соответствует условию");

@@ -22,8 +22,8 @@ public class Task7 {
         }
         System.out.println(Arrays.toString(sumArr));
         double max = sumArr[0];
-        for (int i = 0; i<sumArr.length; i++){
-            max=Math.max(sumArr[i],max);
+        for (double v : sumArr) {
+            max = Math.max(v, max);
         }
         System.out.println("Max = "+max);
     }

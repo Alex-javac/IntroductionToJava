@@ -15,8 +15,8 @@ public class Task3 {
                 matrix[i][j] = (int) (Math.random() * 100);
             }
         }
-        for (int i = 0; i < matrix.length; i++){
-            System.out.println(Arrays.toString(matrix[i]));
+        for (int[] ints : matrix) {
+            System.out.println(Arrays.toString(ints));
         }
         System.out.println("Вывести k-ю строку и p-й столбец матрицы.");
 
@@ -30,10 +30,10 @@ public class Task3 {
 
         System.out.print("p = ");
         int column = scanner.nextInt();
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                if (j==column-1){
-                    System.out.println(matrix[i][j]);
+        for (int[] ints : matrix) {
+            for (int j = 0; j < ints.length; j++) {
+                if (j == column - 1) {
+                    System.out.println(ints[j]);
                 }
             }
         }

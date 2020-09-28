@@ -31,8 +31,8 @@ public class Task9 {
 
         for (int i = 0; i < arr.length; i++) {
             count = 0;
-            for (int j = 0; j < arr.length; j++) {
-                if (arr[i] == arr[j])
+            for (int k : arr) {
+                if (arr[i] == k)
                     count++;
             }
             arrMost[i] = count;
@@ -41,8 +41,8 @@ public class Task9 {
         }
         System.out.println(Arrays.toString(arrMost));
         count = 0;
-        for (int i = 0; i < arrMost.length; i++) {
-            if (maximumNumberOfElements == arrMost[i])
+        for (int j : arrMost) {
+            if (maximumNumberOfElements == j)
                 count++;
         }
 
@@ -56,9 +56,9 @@ public class Task9 {
         }
         System.out.println(Arrays.toString(arrClipped));
         min = arrClipped[0];
-        for (int i = 0; i < arrClipped.length; i++) {
-            if (arrClipped[i] < min)
-                min = arrClipped[i];
+        for (int j : arrClipped) {
+            if (j < min)
+                min = j;
         }
         System.out.println("Если таких несколько, то определить наименьшее из них.");
         System.out.println(min);
